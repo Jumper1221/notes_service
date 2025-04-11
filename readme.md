@@ -103,7 +103,7 @@ curl -X DELETE http://localhost:8000/notes/e945eddb-459f-4c46-8503-1dab3478365f
 }
 ```
 
-Тело запроса:
+#### Пример Тела запроса:
 
 ```json
 {
@@ -129,7 +129,6 @@ curl -X DELETE http://localhost:8000/notes/e945eddb-459f-4c46-8503-1dab3478365f
 Настройки в .env файле:
 
 ```ini
-DEBUG=0
 SECRET_KEY=your-secret-key
 DB_ENGINE=django.db.backends.postgresql
 
